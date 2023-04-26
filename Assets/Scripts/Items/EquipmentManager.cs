@@ -1,5 +1,3 @@
-using Unity.VisualScripting;
-using UnityEditorInternal.Profiling.Memory.Experimental;
 using UnityEngine;
 
 public class EquipmentManager : MonoBehaviour
@@ -73,6 +71,4 @@ public class EquipmentManager : MonoBehaviour
             Unequip(i);
         }
     }
-
-    
 }
