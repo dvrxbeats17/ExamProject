@@ -6,6 +6,8 @@ public class Equipment : Item
     public EquipmentSlot EquipSlot;
     public int ArmorModifier;
     public int DamageModifier;
+    public SkinnedMeshRenderer Mesh;
+    public EquipmentMeshRegion[] CoveredMeshRegions; 
 
     public override void Use()
     {
@@ -15,4 +17,5 @@ public class Equipment : Item
     }
 }
 
-public enum EquipmentSlot {Armor, Arrow, Boots, Bow, Gloves, Helmet, Weapon, Food, Ring, Shield}
+public enum EquipmentSlot {Head, Chest, Legs, Weapon, Shield, Feet}
+public enum EquipmentMeshRegion {Legs, Arms, Torso};

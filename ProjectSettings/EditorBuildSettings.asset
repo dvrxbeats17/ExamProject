@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: 3bc8deb421bd33545bae3f1353edda06
   - enabled: 1
     path: Assets/Scenes/Game.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    guid: 85868f964efe35740bc58a85a50c132f
   - enabled: 1
     path: Assets/Scenes/PauseMenu.unity
     guid: 69a296ca00a46d34e88e7063da3ffe05
